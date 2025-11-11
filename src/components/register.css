@@ -1,0 +1,55 @@
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+textarea{
+    height: 80px;
+    padding-top: 10px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align:center;
+}
+
+span{
+    font-size: 14px;
+}
+
+div.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* form{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+h1{
+    margin-bottom: 20px;
+}
+

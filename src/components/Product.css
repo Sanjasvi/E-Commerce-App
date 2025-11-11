@@ -1,0 +1,28 @@
+.products{
+    border:1px solid black;
+    margin:10px;    
+    padding:10px;
+    height:450px;
+    width:300px;
+    
+}
+
+button{
+    margin:10px;
+}
+
+.productList{
+    display:inline-block;
+    /* display:flex;
+    flex-wrap:wrap; */
+    
+}
+
+/* productDetails */
+#productDetails{
+    border:1px solid black;
+    padding:20px;
+    width:400px;
+    height:auto;
+}
+   
