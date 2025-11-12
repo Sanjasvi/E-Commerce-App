@@ -10,9 +10,9 @@ import ProductDetails from './components/ProductDetails.jsx'
 import Register from './components/Register.jsx'
 import Login from './components/Login.jsx'
 import ThemeProvider from './ContextAPI/ThemeContext.jsx'
-import { CartProvider } from './components/CartContext.jsx'
+import { CartProvider } from './ContextAPI/CartContext.jsx'
 import Cart from './components/Cart.jsx'
-import UserProvider from './components/UserContext.jsx'
+import UserProvider from './ContextAPI/UserContext.jsx'
 
 let router = createBrowserRouter([
   {
@@ -33,7 +33,7 @@ let router = createBrowserRouter([
         element: <ProductList />
       },
       {
-        path: "details/:id",
+        path: "details/:id",    // dynamic route  
         element: <ProductDetails />
       },
       {

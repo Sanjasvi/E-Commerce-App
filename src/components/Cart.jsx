@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { CartContext } from './CartContext'
+import { CartContext } from '../ContextAPI/CartContext'
 import { Link } from 'react-router-dom'
 
 export default function Cart() {

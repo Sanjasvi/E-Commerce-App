@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 import { useState, useEffect } from 'react'
 import './Product.css'
 import { Link } from 'react-router-dom';
-import { CartContext } from './CartContext';
-import { UserContext } from './UserContext';
+import { CartContext } from '../ContextAPI/CartContext';
+import { UserContext } from '../ContextAPI/UserContext';
 
 export default function ProductList() {
     let [product, setProduct] = useState([]);

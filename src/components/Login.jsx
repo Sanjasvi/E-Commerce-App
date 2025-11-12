@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { UserContext } from './UserContext'
+import { UserContext } from '../ContextAPI/UserContext'
 
 export default function Login() {
   let{name, setname}=useContext(UserContext);
@@ -30,10 +30,9 @@ export default function Login() {
 
           <button type="submit">Login</button>
           <br/>
-          <span>
-            
+          <p>
             if not register please <Link to="/register">register</Link>
-          </span>
+          </p>
         </form>
       </div>
     </div>
